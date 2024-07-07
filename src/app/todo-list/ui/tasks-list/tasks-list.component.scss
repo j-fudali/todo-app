@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+mat-list-item {
+  span:hover {
+    cursor: pointer;
+  }
+  span {
+    width: 100%;
+  }
+}
+mat-list {
+  height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
